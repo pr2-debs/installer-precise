@@ -1,5 +1,6 @@
 Name: pr2-release-precise
 Method: http://dev-vm-packages-01/pr2-releases/pr2-0.6.1/ubuntu
+Suite: precise
 Components: main pr2 basestation multiverse restricted universe partner
 Architectures: i386 amd64
 DownloadListsAs: .gz
@@ -7,6 +8,23 @@ VerifyRelease: blindtrust
 
 Name: pr2-release-trusty
 Method: http://dev-vm-packages-01/pr2-releases/pr2-0.6.2/ubuntu
+Suite: trusty
+Components: main pr2 basestation multiverse restricted universe partner
+Architectures: i386 amd64
+DownloadListsAs: .gz
+VerifyRelease: blindtrust
+
+Name: pr2-dev-precise
+Method: http://dev-vm-packages-01/pr2packages/ubuntu
+Suite: precise
+Components: main pr2 basestation multiverse restricted universe partner
+Architectures: i386 amd64
+DownloadListsAs: .gz
+VerifyRelease: blindtrust
+
+Name: pr2-dev-trusty
+Method: http://dev-vm-packages-01/pr2packages/ubuntu
+Suite: trusty
 Components: main pr2 basestation multiverse restricted universe partner
 Architectures: i386 amd64
 DownloadListsAs: .gz
